@@ -49,7 +49,7 @@ export default function HomePage() {
                 </div>
                 <div className="introduction-description">
                     <h6>frontend web developer</h6>
-                    <p>I am a detail oriented web developer based in Los Angeles, California, who enjoys challenging myself to learn new techniques and skillsets. Rhoncus mauris dui commodo fringilla pulvinar. Velit mauris malesuada vitae leo volutpat posuere amet aenean.</p>
+                    <p>I am a detail oriented web developer based in Los Angeles, California, who enjoys challenging myself to learn new techniques and skillsets. With a formal education in Physics, I have self taught programming and bring a valuable set of skills and a unique perspective to the field. Please check out my work below!</p>
                     <h5>Find me on</h5>
                     <div className="socials">
                         <a href="https://github.com/marunouchisrv" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" /></a>
@@ -123,7 +123,7 @@ export default function HomePage() {
                         My name is Cody Coleman. I am an aspiring front end engineer looking to learn as many modern and useful programming languages as I possible can. Although I was originally a physics student at Cal Poly Pomona, I found a love for the logic and flow of computer programming and have since put all of my efforts into my true passion.
                         </p>
                         <p>
-                        Outside of my passion for my career path, I am a former paid professional competitive gamer and used to be very involved in the marketing scene for competitive games. I still love playing in my spare time as well as spending time with my lovely girlfriend and her funny dog.
+                        Outside of my passion for my career path, I am a former paid professional competitive gamer and used to be very involved in the marketing scene for competitive games. I still love playing in my spare time as well as spending time with my lovely wife and our funny dog.
                         </p>
                         <p>
                         My biggest influences in this field are friends of mine who have been working in the field self taught and found what they really love to do. I plan to join them soon.
