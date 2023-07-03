@@ -155,7 +155,7 @@ export default function HomePage() {
                 </div>
                 
                 <div className="submit">
-                    <div class="g-recaptcha" data-sitekey="6Ldb_-0lAAAAADc8KOggO1bUn0x4Bt-NYc_F3i29"></div>
+                    <div class="g-recaptcha" data-sitekey="6Lf80-8mAAAAAExDNCvutRf96jNxnvADzIUOvboQ"></div>
                     <br/>
                     <button disabled={message==="" || message2===""} type="submit"><h4>Send Message</h4></button>
                 </div>
