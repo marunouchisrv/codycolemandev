@@ -48,9 +48,9 @@ export default function HomePage() {
                     <h1>Cody Coleman</h1>
                 </div>
                 <div className="introduction-description">
-                    <h6>frontend web developer</h6>
-                    <p>I am a detail oriented web developer based in Los Angeles, California, who enjoys challenging myself to learn new techniques and skillsets. With a formal education in Physics, I have self taught programming and bring a valuable set of skills and a unique perspective to the field. Please check out my work below!</p>
-                    <h5>Find me on</h5>
+                    <h6>frontend web dev/project manager</h6>
+                    <p>I am a detail oriented web developer and project manager based in Los Angeles, California, who enjoys challenging myself to learn new techniques and skillsets. With a formal education in Physics, I have self taught programming and bring a valuable set of skills and a unique perspective to the field. Please check out my work below!</p>
+                    <h5>Find me on</h5> 
                     <div className="socials">
                         <a href="https://github.com/marunouchisrv" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" /></a>
                         {//<img src={linkedin} alt="linkedin" />
@@ -120,13 +120,13 @@ export default function HomePage() {
             <div className="about-panels">
                 <div className="about-text">
                     <p>
-                        My name is Cody Coleman. I am an aspiring front end engineer looking to learn as many modern and useful programming languages as I possible can. Although I was originally a physics student at Cal Poly Pomona, I found a love for the logic and flow of computer programming and have since put all of my efforts into my true passion.
+                        My name is Cody Coleman. I am currently a long time project manager and coordinator who also enjoys building and creating website with code. I am naturally a people person and pride myself on inspiring others and helping teams achieve their highest potential and best possible deliverables.
                         </p>
                         <p>
                         Outside of my passion for my career path, I am a former paid professional competitive gamer and used to be very involved in the marketing scene for competitive games. I still love playing in my spare time as well as spending time with my lovely wife and our funny dog.
                         </p>
                         <p>
-                        My biggest influences in this field are friends of mine who have been working in the field self taught and found what they really love to do. I plan to join them soon.
+                        My biggest influences in this field are friends of mine who have been working in the field self taught and found what they really love to do. I want to continue bringing the best out of people, and my project manager career facilitates that the best.
                     </p>
                 </div>
                 <div className="about-picture">
