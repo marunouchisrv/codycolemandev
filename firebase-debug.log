@@ -1,0 +1,17 @@
+[debug] [2024-12-26T10:55:23.744Z] ----------------------------------------------------------------------
+[debug] [2024-12-26T10:55:23.746Z] Command:       /usr/local/Cellar/node/20.5.1/bin/node /usr/local/bin/firebase deploy
+[debug] [2024-12-26T10:55:23.747Z] CLI Version:   13.27.0
+[debug] [2024-12-26T10:55:23.747Z] Platform:      darwin
+[debug] [2024-12-26T10:55:23.747Z] Node Version:  v20.5.1
+[debug] [2024-12-26T10:55:23.747Z] Time:          Thu Dec 26 2024 02:55:23 GMT-0800 (Pacific Standard Time)
+[debug] [2024-12-26T10:55:23.747Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-26T10:55:23.749Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-12-26T10:55:26.835Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-12-26T10:55:26.835Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-12-26T10:55:28.779Z] Error: Timed out.
+    at Timeout._onTimeout (/usr/local/lib/node_modules/firebase-tools/lib/utils.js:269:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.

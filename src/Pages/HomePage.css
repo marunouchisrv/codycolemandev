@@ -266,13 +266,25 @@ label {
     text-align: center;
 }
 
+.find-me {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 @media only screen and (max-width: 800px) {
+
+    .main {
+        position: absolute;
+        top: 50px;
+    }
     .introduction-panel {
         display: flex;
         flex-direction: column;
         align-content: center;
         align-items: center;
         width: 100%;
+        margin-top: 70px;
     }
     .introduction-text {
         width: 350px;
@@ -308,7 +320,7 @@ label {
     .introduction-images {
         position: absolute;
         right: auto;
-        top: 60px;
+        top: 40px;
     }
     .my-photo {
         top: 30px;
@@ -358,7 +370,7 @@ label {
     .about-text {
         width: 300px;
 
-        height: 550px;
+        height: 750px;
     }
 
     input {
@@ -381,10 +393,12 @@ label {
         width: 100%;
         align-content: center;
         align-items: center;
+        justify-content: center;
     }
 
     .getintouch-form {
         align-items: center;
+        justify-content: center;
     }
     .skill-icons {
         display: flex;
@@ -394,5 +408,9 @@ label {
     .about-picture img {
         height: auto;
         width: 340px;
+    }
+
+    .find-me {
+        margin-bottom: 50px;
     }
 }

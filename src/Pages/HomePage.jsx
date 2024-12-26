@@ -50,11 +50,13 @@ export default function HomePage() {
                 <div className="introduction-description">
                     <h6>frontend web dev/project manager</h6>
                     <p>I am a detail oriented web developer and project manager based in Los Angeles, California, who enjoys challenging myself to learn new techniques and skillsets. I have over 8 years experience with Agile Project Management and front facing product management/business analysis with stakeholders. With a formal education in Physics, I have self taught programming and bring a valuable set of skills and a unique perspective to the field. Please check out my work below!</p>
+                    <div className="find-me">
                     <h5>Find me on</h5> 
                     <div className="socials">
                         <a href="https://github.com/marunouchisrv" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" /></a>
                         {//<img src={linkedin} alt="linkedin" />
                         }
+                    </div>
                     </div>
                 </div>
             </div>
