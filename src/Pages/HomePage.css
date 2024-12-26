@@ -251,6 +251,21 @@ button {
     box-shadow: 0px 4px 0px #01B7FF;
 }
 
+.work-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.work-card img {
+    max-width: 270px;
+}
+
+label {
+    text-align: center;
+}
+
 @media only screen and (max-width: 800px) {
     .introduction-panel {
         display: flex;

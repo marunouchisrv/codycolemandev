@@ -7,9 +7,9 @@ import github from "../Assets/github.png"
 //import linkedin from "../Assets/linkedin.png"
 import personal from "../Assets/Ellipse 1.png"
 import mitsuru from "../Assets/mitsuru.png"
-import junc from "../Assets/junc.png"
-import janelia from "../Assets/janelia.png"
+import cnf from "../Assets/images.png"
 import married from "../Assets/married.png"
+import janelia2 from "../Assets/janeliadesign.png"
 
 export default function HomePage() {
     const form = useRef();
@@ -49,7 +49,7 @@ export default function HomePage() {
                 </div>
                 <div className="introduction-description">
                     <h6>frontend web dev/project manager</h6>
-                    <p>I am a detail oriented web developer and project manager based in Los Angeles, California, who enjoys challenging myself to learn new techniques and skillsets. With a formal education in Physics, I have self taught programming and bring a valuable set of skills and a unique perspective to the field. Please check out my work below!</p>
+                    <p>I am a detail oriented web developer and project manager based in Los Angeles, California, who enjoys challenging myself to learn new techniques and skillsets. I have over 8 years experience with Agile Project Management and front facing product management/business analysis with stakeholders. With a formal education in Physics, I have self taught programming and bring a valuable set of skills and a unique perspective to the field. Please check out my work below!</p>
                     <h5>Find me on</h5> 
                     <div className="socials">
                         <a href="https://github.com/marunouchisrv" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" /></a>
@@ -95,21 +95,37 @@ export default function HomePage() {
             <div className="work-within">
                 <h2>Recent Work</h2>
                 <div className="my-works">
-                    <a href="http://www.mitsurumains.com/" target="blank" rel="noopener noreferrer">
-                        <div className="img-box">
-                            <img src={mitsuru} alt="mitsurumains" /> 
-                        </div>
-                    </a>
-                    <a href="http://www.juncphotography.com" target="blank" rel="noopener noreferrer">   
-                        <div className="img-box">
-                        <img src={junc} alt="juncphotography" /> 
-                        </div>
-                    </a>
-                    <a href="http://www.itsjanelia.com/" target="blank" rel="noopener noreferrer">
-                        <div className="img-box">
-                        <img src={janelia} alt="janelia" /> 
-                        </div>
-                    </a>
+                    <div className="work-card">
+                        <a href="http://www.mitsurumains.com/" target="blank" rel="noopener noreferrer">
+                            
+                                <div className="img-box">
+                                    <img src={mitsuru} alt="mitsurumains" /> 
+                                </div>
+                            
+                        </a>
+                        <label>Information website for esports athletes</label>
+                    </div>
+                    <div className="work-card">
+                        <a href="http://codeninjasfullerton.com" target="blank" rel="noopener noreferrer">   
+                            <div className="work-card">
+                                <div className="img-box">
+                                    <img src={cnf} alt="code ninjas fullerton" /> 
+                                </div>
+                            </div>
+                        </a>
+                        <label>Front facing website for children's coding academy</label>
+                    </div>
+                    <div className="work-card">
+                        <a href="http://janeliango.com/" target="blank" rel="noopener noreferrer">
+                            <div className="work-card">
+                                <div className="img-box">
+                                    <img src={janelia2} alt="janelia" /> 
+                                </div>
+                            </div>
+                        </a>
+                        <label>Design portfolio for a professional product designer</label>
+                        <label></label>
+                    </div>
                 </div>
             </div>
         </div>
